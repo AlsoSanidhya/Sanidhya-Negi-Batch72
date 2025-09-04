@@ -1,2 +1,3 @@
-# Batch72
+# Sanidhya 
+Batch72
 Classroom questions c programmming
