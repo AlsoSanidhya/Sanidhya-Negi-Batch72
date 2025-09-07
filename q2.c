@@ -1,3 +1,4 @@
+//Write a C program to add two numbers, take number from user and print the sum
 #include <stdio.h>
 
 int main() {
