@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 int main() {
-    int a = 10;   // first number
-    int b = 5;    // second number
-    int sum;      // variable to store result
+    int a   ,b , sum;// first number   // second number
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
 
     sum = a + b;  // add the two numbers
 
