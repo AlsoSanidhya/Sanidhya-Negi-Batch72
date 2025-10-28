@@ -1,7 +1,5 @@
 //Write a C program to count how many even and odd numbers are present in an array using functions.
 #include <stdio.h>
-
-// Function to count even numbers
 int countEven(int arr[], int n) {
     int count = 0;
     for(int i = 0; i < n; i++) {
