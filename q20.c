@@ -5,7 +5,6 @@ int main() {
     do {
         float num1, num2, result;
         char operator;
-
         // Prompt user for two numbers and an operator
         printf("Enter first number: ");
         scanf("%f", &num1);
