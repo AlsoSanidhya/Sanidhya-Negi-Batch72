@@ -23,6 +23,7 @@ int main(){
             freq[i] = count;     
         }
     }
+
     printf("\nFrequency of each element:\n");
     for (i = 0; i < n; i++) {
         if (freq[i] != 0) {
