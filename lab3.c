@@ -8,26 +8,26 @@ int main(){
     int *p1 = &a;
     float *p2 = &b;
     char *p3 = &c;
-    printf("Original Addresses:\n");
-    printf("p1(int*)  = %p\n", p1);
-    printf("p2(float*)= %p\n", p2);
-    printf("p3(char*) = %p\n", p3);
+    printf("Original address:\n");
+    printf("p1(int)  = %p\n", p1);
+    printf("p2(float)= %p\n", p2);
+    printf("p3(char) = %p\n", p3);
 
     p1++; 
     p2++;   
     p3++;   
-    printf("\nAfter Increment:\n");
-    printf("p1(int*)  = %p\n", p1);
-    printf("p2(float*)= %p\n", p2);
-    printf("p3(char*) = %p\n", p3);
+    printf("\nAfter Incre:\n");
+    printf("p1(int)  = %p\n", p1);
+    printf("p2(float)= %p\n", p2);
+    printf("p3(char) = %p\n", p3);
 
     p1--;  
     p2--;   
     p3--;  
-    printf("\nAfter Decrement:\n");
-    printf("p1(int*)  = %p\n", p1);
-    printf("p2(float*)= %p\n", p2);
-    printf("p3(char*) = %p\n", p3);
+    printf("\nAfter Decre:\n");
+    printf("p1(int)  = %p\n", p1);
+    printf("p2(float)= %p\n", p2);
+    printf("p3(char) = %p\n", p3);
 
     return 0;
 }
