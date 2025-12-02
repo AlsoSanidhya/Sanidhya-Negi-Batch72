@@ -1,11 +1,12 @@
 //write a program to check if a given number is even or odd using functions.
 #include <stdio.h>
-void evenorodd(int num) {
+int evenorodd(int num) {
     if (num % 2 == 0) {
         printf("%d is even.\n", num);
     } else {
         printf("%d is odd.\n", num);
     }
+    return 0;
 }
 int main() {
     int no;
