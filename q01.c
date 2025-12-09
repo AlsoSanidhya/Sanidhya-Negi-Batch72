@@ -7,7 +7,7 @@ int main() {
 
     // Prompt user for name
     printf("Enter your name: ");
-    scanf("%s", name);  // Reads a single word (use fgets for full name with spaces)
+    scanf("%s", &name);  // Reads a single word (use fgets for full name with spaces)
 
     // Prompt user for age
     printf("Enter your age: ");
